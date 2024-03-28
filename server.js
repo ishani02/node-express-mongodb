@@ -1,3 +1,15 @@
+/**
+ * Insert this Errsole code snippet as the first line of your app's main file
+ */
+const errsole = require('@errsole/node');
+errsole.initialize({
+  framework: 'express',
+  token: '43109d6f-0353-4a96-b1cc-695daf49e010',
+  exitOnException: true,
+  evalExpression: true
+});
+// End of Errsole code snippet
+
 const express = require("express");
 const cors = require("cors");
 
